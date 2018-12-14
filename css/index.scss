@@ -155,10 +155,10 @@ body, html {
     margin-top: 70px;
     font-weight: bold;
     text-align: center;
-    // border: 2px solid black;
-    table, thead, tbody {
+    table {
         width: 100%;
-        // width: 200px;
+        table-layout: fixed;
+        word-break: break-all;
     }
     th {
         text-align: center;
@@ -167,8 +167,10 @@ body, html {
     }
     td {
         border: 2px solid black;
-        font-size: 25px;
-        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px; 
+        white-space: nowrap;
     }
     p {
         color: red;
@@ -190,3 +192,21 @@ body, html {
         font-family: Microsoft YaHei;
     }
 }
+
+@media (max-width: 768px){
+    .table {
+        td {
+            padding: 5px;
+            font-size: 1em;
+
+        }
+        .first {
+            width: 100px !important;
+        }
+    }
+    .standard {
+        .title {
+            font-size: 33px;
+        }
+    }
+} 

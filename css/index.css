@@ -14,7 +14,7 @@ body, html {
 }
 
 .header img {
-  width: 100%;
+  width: 90%;
 }
 
 /* 轮播图部分 */
@@ -180,8 +180,10 @@ body, html {
   text-align: center;
 }
 
-.table table, .table thead, .table tbody {
+.table table {
   width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
 }
 
 .table th {
@@ -192,8 +194,10 @@ body, html {
 
 .table td {
   border: 2px solid black;
-  font-size: 25px;
+  font-size: 24px;
+  text-align: center;
   padding: 20px;
+  white-space: nowrap;
 }
 
 .table p {
@@ -217,4 +221,17 @@ body, html {
   font-weight: bold;
   white-space: normal;
   font-family: Microsoft YaHei;
+}
+
+@media (max-width: 768px) {
+  .table td {
+    padding: 5px;
+    font-size: 1em;
+  }
+  .table .first {
+    width: 100px !important;
+  }
+  .standard .title {
+    font-size: 33px;
+  }
 }
