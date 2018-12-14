@@ -1,0 +1,192 @@
+/* 头部区域 */
+body, html {
+    width: 100%;
+    // height: 3000px;
+}
+.container {
+    width: 80% !important;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+}
+/* 轮播图部分 */
+.item {
+    width: 100%;
+    img {
+        width: 100% !important;
+    }
+}
+.model-box {
+    margin-top: 70px;
+}
+.model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    img {
+        // width: 120px;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        ~ p {
+            font-size: 14px;
+            line-height: 2em;
+            text-align: center;
+        }
+    }
+}
+/* 宣传部分开始 */
+.xc-box {
+    background: url("../images/xcbg.jpg") no-repeat center center;
+    background-color: #132E63;
+    // height: 430px;
+    padding: 80px 10%;
+    margin-top: 70px;
+    // display: flex;
+    // justify-content: space-between;
+}
+.xc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #4e595f;
+    color: #fff;
+    .num {
+        font-size: 35px;
+        line-height: 2em;
+    }
+    ~ p {
+        font-size: 20px;
+        line-height: 2em;
+    }
+    img {
+        width: 45px;
+        margin-bottom: 20px;
+    }
+}
+.standard {
+    margin-top: 70px;
+    .title {
+        text-align: center;
+        span {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 38px;
+            font-family: oswald;
+            line-height: 2em;
+        }
+        .red {
+            color: red;
+        }
+    }
+    .line {
+        text-align: center;
+        width: 100%;
+        p {
+            display: inline-block;
+        }
+        .s {
+            width: 30%;
+            height: 2px;
+            background-color: #000;
+            text-align: center;
+        }
+        .b {
+            width: 8%;
+            height: 10px;
+            background-color: #000;
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+/* 销量图 */
+.sales, .hot{
+    margin-top: 70px;
+    img {
+        width: 100%;
+    }
+}
+
+/* step流程图部分 */
+.step-box {
+    background: url("../images/xcbg.jpg") no-repeat center center;
+    background-color: #132E63;
+    padding: 80px 10%;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p:last-of-type {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .line {
+            width: 80%;
+            height: 1px;
+            background-color: #fff;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/* 表格部分 */
+.table {
+    margin-top: 70px;
+    font-weight: bold;
+    text-align: center;
+    // border: 2px solid black;
+    table, thead, tbody {
+        width: 100%;
+        // width: 200px;
+    }
+    th {
+        text-align: center;
+        font-size: 38px;
+        padding-bottom: 20px;
+    }
+    td {
+        border: 2px solid black;
+        font-size: 25px;
+        padding: 20px;
+    }
+    p {
+        color: red;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+.bottom {
+    background-color: #333439;
+    height: 100px;
+}
+.contact {
+    margin-top: 70px;
+    p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        white-space: normal;
+        font-family: Microsoft YaHei;
+    }
+}
