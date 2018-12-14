@@ -234,4 +234,7 @@ body, html {
   .standard .title {
     font-size: 33px;
   }
+  .header img {
+    width: 100%;
+  }
 }
